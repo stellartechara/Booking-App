@@ -1,0 +1,153 @@
+/* ============================
+    GLOBAL IMPROVEMENT
+============================ */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ============================
+    TOP CONTACT WRAP
+============================ */
+.wrap {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 6px 0;
+}
+
+.wrap a {
+    transition: color .2s ease-in-out;
+}
+
+.wrap a:hover {
+    color: #0d6efd !important;
+}
+
+/* ============================
+    NAVBAR MODERN
+============================ */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: .3px;
+    /* Tambahkan warna putih untuk brand agar selalu terlihat */
+    color: #ffffff !important; 
+}
+
+.nav-link {
+    padding: 8px 14px !important;
+    transition: all .2s ease;
+    /* PERUBAHAN PENTING: Mengatur warna dasar nav-link menjadi putih */
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    /* Warna Hover tetap biru terang */
+    color: #0d6efd !important;
+}
+
+.navbar .btn {
+    transition: all .2s ease;
+}
+
+.navbar .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+/* ============================
+    FOOTER MODERN
+============================ */
+footer.footer {
+    background: #111 !important;
+    color: #bbb !important;
+    font-size: 15px;
+}
+
+footer h2.footer-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer .logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+footer .tag-cloud-link {
+    background: rgba(255,255,255,0.08) !important;
+    border-radius: 6px;
+}
+
+footer .tag-cloud-link:hover {
+    background: #0d6efd !important;
+    color: #fff !important;
+}
+
+.footer a {
+    transition: all .2s ease;
+}
+
+.footer a:hover {
+    color: #0d6efd !important;
+}
+
+/* Subscribe input */
+.subscribe-form .form-control {
+    border-radius: 8px 0 0 8px !important;
+    border: 1px solid #444;
+    background: #222;
+    color: #eee;
+}
+
+.subscribe-form .btn {
+    border-radius: 0 8px 8px 0 !important;
+}
+
+/* Social buttons */
+.ftco-footer-social a {
+    border-radius: 8px !important;
+    transition: all .2s ease;
+}
+
+.ftco-footer-social a:hover {
+    background: #0d6efd !important;
+    color: white !important;
+}
+
+/* Bottom footer */
+footer .copyright {
+    font-size: 14px;
+    color: #888;
+}
+
+footer .border-top {
+    border-color: #333 !important;
+}
+
+/* ============================
+    MODERN BUTTON STYLE
+============================ */
+.btn-primary {
+    border-radius: 50px !important;
+    padding: 8px 18px !important;
+}
+
+/* ============================
+    RESPONSIVE POLISH
+============================ */
+@media (max-width: 991px) {
+    .navbar {
+        padding: 10px 0;
+    }
+    .ftco-footer-social {
+        justify-content: start !important;
+        margin-top: 10px;
+    }
+}
